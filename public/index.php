@@ -2,7 +2,7 @@
 // public/index.php
 // Front Controller: Einstiegspunkt für alle HTTP-Anfragen.
 // Lädt Autoload, initialisiert ENV/Kernel, behandelt Routing und gibt JSON-Antworten zurück.
-
+//1
 declare(strict_types=1);
 
 use App\Core\Kernel;
