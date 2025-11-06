@@ -1,7 +1,7 @@
 <?php
 // app/Http/Middleware/CorsMiddleware.php
 // Platzhalter: CORS-Logik derzeit in public/index.php geregelt – später hierher umziehen.
-
+// TOLL
 declare(strict_types=1);
 
 namespace App\Http\Middleware;
