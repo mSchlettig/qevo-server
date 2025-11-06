@@ -2,7 +2,7 @@
 // public/index.php
 // Front Controller: Einstiegspunkt für alle HTTP-Anfragen.
 // Lädt Autoload, initialisiert ENV/Kernel, behandelt Routing und gibt JSON-Antworten zurück.
-// Kleine Änderung für GIT
+
 
 declare(strict_types=1);
 
