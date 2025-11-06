@@ -1,0 +1,8 @@
+/vendor/
+/storage/logs/
+/storage/*.log
+/.env
+/.env.local
+/composer.lock
+.DS_Store
+Thumbs.db

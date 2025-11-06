@@ -1,0 +1,17 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /qevo-server/
+
+  # Wenn nur /qevo-server/ aufgerufen wird → nach /public/ leiten
+  RewriteRule ^$ public/ [L]
+
+  # Existierende Dateien/Ordner direkt ausliefern
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Alles andere an public/index.php routen
+  RewriteRule ^ public/index.php [L]
+</IfModule>
